@@ -1,17 +1,34 @@
 const webpack = require('webpack');
-const resolve = require('path');
+const { resolve } = require('path');
 
 module.exports = {
+
   entry: [
-    resolve(__direname, "src") + "/index.jsx"
+    resolve(__dirname, "src") + "/index.jsx"
   ],
 
   output: {
     filename: 'app.bundle.js',
-    path: resolve(__direname, 'build')
+    path: resolve(__dirname, 'build'),
   },
 
   resolve: {
-    extentions: ['jsx', 'js']
+    extensions: [ '.js', '.jsx' ]
+  },
+
+  module: {
+    rules: [
+      {
+        test: /\.jsx?$/,
+        loader: "babel-loader",
+        exclude: /node_modules/,
+        options: {
+          presets: [
+            "es2015",
+            "react"
+          ]
+        }
+      },
+    ],
   }
 };

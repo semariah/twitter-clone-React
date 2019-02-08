@@ -1,9 +1,13 @@
 import React from 'react';
+import Header from './Header';
+import DressList from './DressList';
+
 
 function App(){
   return(
     <div>
-      <h1>HEllo PRetty</h1>
+      <Header/>
+      <DressList/>
     </div>
   );
 }

@@ -1,13 +1,14 @@
 import React from 'react';
-import dress from './dress';
+import Dress from './Dress';
 
 
-function dressList (){
+function DressList (){
   return(
-    <div>
-      <dress/>
-    </div>
+    <Dress
+      name="First Dress"
+      size="S"
+      color="Red"/>
   )
 }
 
-export default dressList;
+export default DressList;

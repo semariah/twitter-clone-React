@@ -5,8 +5,12 @@ import ProfilePic from './ProfilePic';
 
 
 function Profile (){
+  const ProfileStyle = {
+    borderBottom: "1px solid grey"
+
+  }
   return (
-    <div>
+    <div style={ProfileStyle}>
       <ProfilePic/>
       <ProfileName/>
       <ProfileLinks/>

@@ -1,12 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 
-function FeedName(){
+function FeedName(props){
   return(
     <div>
-      <h2>Ariam</h2>
+      <h2>{props.name}</h2>
     </div>
   );
 }
+
+FeedName.propTypes = {
+  name: PropTypes.string
+};
 
 export default FeedName;

@@ -9,4 +9,4 @@ function ProfileName(){
   );
 }
 
-export default ProfileName
+export default ProfileName;

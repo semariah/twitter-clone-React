@@ -6,7 +6,7 @@ function Header(){
     <div>
       <h1>HeLLo PReTTy</h1>
     </div>
-  )
+  );
 }
 
 export default Header;

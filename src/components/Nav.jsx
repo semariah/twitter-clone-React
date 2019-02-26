@@ -6,12 +6,12 @@ import NavTweet from './NavTweet';
 function Nav(){
 
   const OtherStyle = {
-    display: "flex",
+    display: 'flex',
     flex: 1,
-    justifyContent: "space-between",
-    padding: "5px",
-    paddingBottom: "15px"
-  }
+    justifyContent: 'space-between',
+    padding: '5px',
+    paddingBottom: '15px'
+  };
   return(
     <div>
       <NavLinks/>

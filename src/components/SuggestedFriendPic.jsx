@@ -1,11 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function SuggestedFriendPic(){
+function SuggestedFriendPic(props){
   return(
     <div>
-      <img src="elham.peg"></img>
+      <img src={props.pic}></img>
     </div>
   );
 }
+
+SuggestedFriendPic.propTypes={
+  pic: PropTypes.string
+};
 
 export default SuggestedFriendPic;

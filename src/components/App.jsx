@@ -4,7 +4,7 @@ import DressList from './DressList';
 import Profile from './Profile';
 import Bio from './Bio';
 import FeedInput from './FeedInput';
-import FeedContent from './FeedContent';
+import FeedPost from './FeedPost';
 import SuggestedFriends from './SuggestedFriends';
 import Nav from './Nav';
 
@@ -15,9 +15,9 @@ function App(){
       <Header/>
       <Nav/>
       <Profile/>
-      <FeedInput/>
-      <FeedContent/>
       <Bio/>
+      <FeedInput/>
+      <FeedPost/>
       <DressList/>
       <SuggestedFriends/>
     </div>

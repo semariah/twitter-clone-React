@@ -18,6 +18,6 @@ Dress.propTypes = {
   name: PropTypes.string.isRequired,
   size: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired
-}
+};
 
 export default Dress;

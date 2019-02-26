@@ -1,11 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function SuggestedFriendButton(){
+function SuggestedFriendButton(props){
   return (
     <div>
-      <button>Button</button>
+      <button>{props.button}</button>
     </div>
   );
 }
+
+SuggestedFriendButton.propTypes = {
+  button: PropTypes.String
+};
 
 export default SuggestedFriendButton;

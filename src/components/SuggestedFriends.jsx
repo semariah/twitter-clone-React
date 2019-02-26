@@ -8,8 +8,6 @@ function SuggestedFriends(){
     <div>
       <SuggestedFriendsTitle/>
       <SuggestedFriendUser/>
-      <SuggestedFriendUser/>
-      <SuggestedFriendUser/>
     </div>
   );
 }

@@ -8,7 +8,7 @@ function DressList (){
       name="First Dress"
       size="S"
       color="Red"/>
-  )
+  );
 }
 
 export default DressList;
